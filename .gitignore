@@ -40,4 +40,4 @@ jspm_packages
 .idea
 
 # Temporary directories
-test-results
+# test-results

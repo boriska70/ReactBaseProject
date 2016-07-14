@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="check11plus" timestamp="2016-07-14T11:57:23" hostname="localhost" time="0.005" errors="0" tests="2" skipped="0" disabled="0" failures="0">
+  <testcase classname="check11plus" name="adds 11 + 2 to equal 13" time="0.002" />
+  <testcase classname="check11plus" name="adds 11 + 3 to equal 14" time="0" />
+ </testsuite>
+ <testsuite name="check12plus" timestamp="2016-07-14T11:57:23" hostname="localhost" time="0" errors="0" tests="2" skipped="0" disabled="0" failures="0">
+  <testcase classname="check12plus" name="adds 12 + 2 to equal 14" time="0" />
+  <testcase classname="check12plus" name="adds 12 + 3 to equal 15" time="0" />
+ </testsuite>
+</testsuites>

@@ -1,0 +1,25 @@
+{
+  "name": "react-test-project",
+  "version": "0.0.1",
+  "description": "React test project",
+  "repository": {
+    "type": "git",
+    "url": "TBD"
+  },
+  "author": "",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "collectCoverage": false,
+    "setupTestFrameworkScriptFile": "./setup-jasmine-env.js",
+    "unmockedModulePathPatterns": [
+      "<rootDir>/node_modules/jasmine-reporters"
+    ]
+  },
+  "devDependencies": {
+    "jasmine-reporters": "^2.2.0",
+    "jest-cli": "^12.1.1"
+  }
+}
